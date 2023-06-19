@@ -1,0 +1,72 @@
+header {
+    background-color: #adb0b0;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .mw-logo-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .mw-logo-icon {
+    margin-right: 10px;
+  }
+
+  .mw-logo-wordmark {
+    width: 7.5em;
+    height: 1.125em;
+  }
+
+  .mw-logo-tagline {
+    width: 7.5em;
+    height: 0.8125em;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  main {
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  #texto{
+    flex-basis: 50%;
+      box-sizing: border-box;
+      padding: 0px;
+      margin: 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    .texto {
+      flex-basis: 50%;
+      
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+  }
+
+  
+.card{
+    padding: 0 0;
+    margin: 0px;
+}
